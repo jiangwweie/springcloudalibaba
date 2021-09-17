@@ -1,6 +1,6 @@
-package com.jiangwei.cloud.common;
+package com.jiangwei.cloud.config;
 
-import com.jiangwei.cloud.common.service.HelloService;
+import com.jiangwei.cloud.config.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -8,3 +8,8 @@ spring:
 
   application:
     name: discovery-client
+
+
+
+server:
+  port: 8003
