@@ -12,6 +12,6 @@ public class DubboHelloServiceImpl implements DubboHelloService {
 
     @Override
     public String sayHi(String msg) {
-        return "hello " + msg;
+        return "dubbo producer : hello " + msg;
     }
 }
