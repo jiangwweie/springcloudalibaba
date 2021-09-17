@@ -1,6 +1,6 @@
-package com.jiangwei.cloud.config;
+package com.jiangwei.cloud.common;
 
-import com.jiangwei.cloud.config.service.HelloService;
+import com.jiangwei.cloud.common.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DiscoveryCommonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DiscoveryCommonApplication.class);
+        SpringApplication.run(DiscoveryCommonApplication.class,args);
     }
 
 

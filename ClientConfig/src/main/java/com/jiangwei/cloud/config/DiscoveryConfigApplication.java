@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DiscoveryConfigApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DiscoveryConfigApplication.class);
+        SpringApplication.run(DiscoveryConfigApplication.class,args);
     }
 
 

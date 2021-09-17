@@ -1,0 +1,21 @@
+server:
+  port: 8008
+
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    name: dubbo
+    port: -1
+  cloud:
+    subscribed-services: cloud-api-producer
+
+spring:
+  application:
+    name: cloud-api-consumer
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

@@ -8,18 +8,18 @@ spring:
     nacos:
       config:
         server-addr: localhost:8848
-        # 对应nacos的dataId ,否则默认application.name
+        # 对应nacos的dataId ,否则默认application.name，优先级最高
         prefix: discovery-config
         # 格式类型
         file-extension: yaml
         #group:
         #namespace:
-
+        # 优先级次低
         extension-configs[0]:
           dataId: ext-config.properties
           group: DEFAULT_GROUP
           refresh: true
-
+        # 优先级最低
         shared-configs[0]:
           dataId: share-config.properties
           group: DEFAULT_GROUP

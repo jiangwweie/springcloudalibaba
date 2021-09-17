@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DiscoveryServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DiscoveryServerApplication.class);
+        SpringApplication.run(DiscoveryServerApplication.class,args);
     }
 
     @Value("${server.port}")

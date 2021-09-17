@@ -1,0 +1,20 @@
+server:
+  port: 8007
+
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.jiangwei.cloud.api.service
+
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: cloud-api-producer
