@@ -1,6 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 HELP.md
-/target/
+/**/target/
 
 ### STS ###
 .apt_generated
@@ -39,4 +39,4 @@ mvnw.cmd
 /Cristina.iml
 /src/main/resources/rebel.xml
 
-/*/target/
+/ClientCommon/target/
