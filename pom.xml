@@ -14,7 +14,8 @@
         <module>Api</module>
         <module>ApiProducer</module>
         <module>ApiConsumer</module>
-        <module>sentinel</module>
+        <module>CloudSentinel</module>
+        <module>CloudGateway</module>
     </modules>
     <packaging>pom</packaging>
 
