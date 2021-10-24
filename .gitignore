@@ -39,4 +39,10 @@ mvnw.cmd
 /Cristina.iml
 /src/main/resources/rebel.xml
 
-/*/target/
+/*/target/cloud.iml
+api-consumer.iml
+api-producer.iml
+client-common.iml
+client-config.iml
+client-config.iml
+discovery-server.iml

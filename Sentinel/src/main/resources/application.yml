@@ -1,0 +1,25 @@
+server:
+  port: 8101
+
+
+spring:
+  application:
+    name: alibaba-sentinel-datasource-nacos
+  cloud:
+    sentinel:
+      #      使 你的SpringCloud应用启动时，直接与Sentinel建立心跳连接,访问sentinel 控制台就可以看到服务连接情况，不需要第一次访问应用的某个接口，才连接sentinel
+      eager: true
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+      datasource:
+        ds:
+          nacos:
+            server-addr: localhost:8848
+            dataId: ${spring.application.name}
+            groupId: DEFAULT_GROUP
+            data-type: json
+            namespace: public
+            rule-type: flow
+
+
